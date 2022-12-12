@@ -1,0 +1,42 @@
+<html>
+
+<head>
+<title>Resgister new car</title>
+</head>
+<body>
+<form name="myForm" action="insert_new_car.php" onsubmit="return validateForm()" method="post">
+  model: <input type="text" name="model"><br>
+  brand: <input type="text" name="brand"><br>
+  model_year: <input type="text" name="model_year"><br>
+  price: <input type="text" name="price"><br>
+  color: <input type="text" name="color"><br>
+  plate_id: <input type="text" name="plate_id"><br>
+<input type="submit" value="Submit">
+</form>
+<style>
+form {
+border: 3px solid #f1f1f1;
+}
+input[type=text], input[type=password] {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+
+ input[type=submit] {
+background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+ 
+  cursor: pointer;
+  width: 12%;
+  
+}
+</style>
+</body>
+</html>
